@@ -6,7 +6,7 @@ import mongoose from "mongoose";
         console.log("MONGODB CONNECTED SUCCESSFULLY ")
         
     } catch(error){
-        console.log("error connecting to mongodb");
+        console.log("error connecting to mongodb",error);
         process.exit(1)
     }
 
